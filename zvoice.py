@@ -15,7 +15,7 @@ def text_to_speech(text, voice_id, api_key):
     "text": text,
     "voice_settings": {
         "stability": 0.5,  # Let voice more statable
-        "similarity_boost": 0.75  # Let the voice better more human
+        "similarity_boost": 0.75  # Let the voice more human
     }
 }
     response = requests.post(url, headers=headers, json=data)
