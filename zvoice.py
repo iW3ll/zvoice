@@ -48,5 +48,4 @@ examples = [
     ["Pode tocar alguma música?", "ThT5KcBeYPX3keUQqHPh", "api_key"]
 ]
 
-# Inicializa a interface Gradio
 gr.Interface(fn=text_to_speech, inputs=inputs, outputs=output, title=title, description=description, examples=examples).launch()
